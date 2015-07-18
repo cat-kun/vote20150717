@@ -1,3 +1,32 @@
 @charset "UTF-8";
 /*活动说明*/
-.page{height: 100vh;background: #69b3f2 url(images/instruction_bg.jpg) no-repeat 50%;-webkit-background-size: contain;background-size: contain;}
+.page{background: #69b3f2 url(images/instruction_bg.jpg) no-repeat 50%;-webkit-background-size: contain;background-size: contain;overflow: hidden;}
+#header{height: 42px;margin: 15px 0 0 20px;color: #fff;font-size: 20px;margin-bottom: 16px;}
+#header .iconfont{font-size: 30px;}
+.main{padding: 0 18px;color: #fff;}
+.main .title{font-size: 30px;text-align: center;margin-bottom: 17px;}
+.main dl{margin-bottom: 18px;}
+.main dt{font-size: 22px;font-weight: 700;}
+.main dd{text-indent: 27px;font-size: 16px;line-height: 34px;}
+.button{width: 50%;height: 40px;background-color: #de5527;font: 24px/40px sans-serif;text-align: center;border-radius: 4px;margin: 22px auto;border-bottom: 2px solid #c83f10;display: block;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{width: 100%;height: 50px;background: #fabb3e url(../images/footer_bg.png) center bottom no-repeat;font: 18px/50px '\5FAE\8F6F\96C5\9ED1';color: #fff;text-align: center;-webkit-background-size: cover;background-size: cover;}
