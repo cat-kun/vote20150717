@@ -22,12 +22,14 @@ a{text-decoration:none;outline:none;}
 url('//at.alicdn.com/t/font_1437185995_7495947.svg#iconfont') format('svg'); /* iOS 4.1- */}
 .iconfont{font-family:"iconfont"!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:0.2px;-moz-osx-font-smoothing:grayscale;}
 /*header*/
-#header{height: 42px;margin: 15px 0 0 20px;color: #fff;font-size: 20px;margin-bottom: 16px;}
+#header{height: 42px;margin: 15px 0 0 20px;color: #fff;font-size: 20px;margin-bottom: 16px;font-family: 'hylxtt';}
 #header .iconfont{font-size: 30px;}
 /*footer*/
-#footer{width: 100%;height: 50px;background: #fabb3e url(../images/footer_bg.png) center bottom no-repeat;font: 18px/50px '\5FAE\8F6F\96C5\9ED1';color: #fff;text-align: center;-webkit-background-size: cover;background-size: cover;}
+#footer{width: 100%;height: 50px;background: url(../images/footer_bg.png) center bottom no-repeat;font: 18px/55px '\5FAE\8F6F\96C5\9ED1';color: #fff;text-align: center;-webkit-background-size: cover;background-size: cover;}
 /*汉真广标字体*/
 @font-face{font-family: 'hzgb';src: url('../fonts/hanzhengguangbiao.ttf') format('truetype');}
+/*汉仪菱心体简*/
+@font-face{font-family: 'hylxtt';src: url('../fonts/hanyilingxinti.ttf') format('truetype');}
 @media screen and (min-width: 640px){
 	.page{max-width: 640px;margin-left: auto;margin-right: auto;}
 }
