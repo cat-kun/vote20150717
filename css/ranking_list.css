@@ -6,6 +6,8 @@
 .nav a{color: #fff;font-size: .8rem;font-family: 'hylxtt';text-align: center;width: 33%;float: left;height: 34px;}
 .nav .current{color: #ffcb64;text-shadow: 2px 2px 0px #fff,-1px -2px 0px #fff;/*-webkit-text-stroke: 1px #fff;text-stroke: 1px #fff;*/}
 .mainList{background-color: #fff;}
+/*默认只显示第一个ul*/
+.mainList ul{display: none;}
 .mainList li{border-bottom: 1px solid #68b3f3;}
 .mainList .default{font-size: 0;font: 16px/54px '\5FAE\8F6F\96C5\9ED1';}
 .mainList .default span,.mainList .default strong,.mainList .detail span,.mainList .detail em,.mainList .detail p{float: left;}

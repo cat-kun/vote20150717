@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*投票*/
+.page{background-color: #7bbcf4;overflow: hidden;}
+.searchBox{float: right;width: 61%;height: 40px;background-color: #fff;border-radius: 5px;font: 24px/40px '\5FAE\8F6F\96C5\9ED1';position: relative;margin-right: 14px;overflow: hidden;}
+.searchBox input{border: none;height: 28px;position: absolute;top: 6px;left: 10px;width: 80%;}
+.searchBox .iconfont{height: 28px;position: absolute;top: 0;right: 5px;color: #000;/*border-left: 1px solid #707070;*/}
+.searchBox .iconfont:before{content: "|";color: #000;font-style: normal;margin-right: 10px;width: 1px;display: inline-block;}
+#header .searchBox .iconfont{font-size: 22px;}
+.main h3.title{text-align: center;color: #fff;font-size: 34px;font-family: 'hylxtt';font-weight: normal;margin: 10px 0;}
+.mainList{margin: 0 10px;}
+.mainList .nav a{color: #a5a5a5;width: 33%;float: left;text-align: center;font-size: .7rem;font-family: 'hylxtt';border-right: 1px solid #aeaeae;background-color: #fff;border-radius: 5px 5px 0 0/ 5px 5px 0 0;height: 50px;line-height: 50px;}
+.mainList .nav a:last-of-type{border: none;}
+/*.mainList{border: 1px solid #aeaeae;overflow: hidden;}*/
+.mainCont ul{border-top: 1px solid #aeaeae;overflow: hidden;padding: 4px;background-color: #fff;border-radius: 5px 0 5px 5px/ 5px 0 5px 5px;box-sizing: border-box;}
+.mainCont li{width: 30%;float: left;border: 2px solid #ff3108;background-color: #ffdf4b;}
+/*.mainList .nav,.mainCont{background-color: #fff;}*/
+.mainCont .num{width: 43px;height: 20px;}
