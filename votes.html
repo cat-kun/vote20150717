@@ -14,11 +14,14 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/votes.css">
 <script>
-window.onload = window.onresize = function (){
-	var _html = document.getElementsByTagName('html')[0];
-	var view_width = _html.getBoundingClientRect().width;
+var _html,view_width;
+fontSize();
+window.onresize = fontSize;
+function fontSize (){
+	_html = document.getElementsByTagName('html')[0];
+	view_width = _html.getBoundingClientRect().width;
 	view_width > 640 ? _html.style.fontSize = 640 / 16 + 'px' : _html.style.fontSize = view_width / 16 + 'px';
-};
+}
 </script>
 </head>
 <body>
@@ -33,11 +36,121 @@ window.onload = window.onresize = function (){
 		<h3 class="title">投票页</h3>
 		<div class="mainList">
 			<nav class="nav clearfix">
-				<a href="javascript:">十大中国品牌</a>
+				<a href="javascript:" class="current">十大中国品牌</a>
 				<a href="javascript:">十大海外品牌</a>
-				<a href="javascript:" class="current">十大新锐品牌</a>
+				<a href="javascript:">十大新锐品牌</a>
 			</nav>
 			<div class="mainCont">
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<div class="num">C01</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C02</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C03</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C04</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C05</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C06</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C07</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C08</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C09</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+				</ul>
 				<ul class="clearfix">
 					<li>
 						<div class="num">C01</div>
@@ -52,10 +165,10 @@ window.onload = window.onresize = function (){
 						</div>
 					</li>
 					<li>
-						<div class="num">C01</div>
+						<div class="num">C02</div>
 						<div class="itemBox">
 							<p class="title">我的朋友猪迪克</p>
-							<div class="itemImg"><img src="http://image.17zwd.com/img/0-150-150.jpg" alt=""></div>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
 							<p class="itemTxt">选送单位：</p>
 							<span class="itemTxt2">北京百视文化传...</span>
 							<i class="heart"></i>
@@ -64,10 +177,10 @@ window.onload = window.onresize = function (){
 						</div>
 					</li>
 					<li>
-						<div class="num">C01</div>
+						<div class="num">C03</div>
 						<div class="itemBox">
 							<p class="title">我的朋友猪迪克</p>
-							<div class="itemImg"><img src="http://image.17zwd.com/img/0-150-150.jpg" alt=""></div>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
 							<p class="itemTxt">选送单位：</p>
 							<span class="itemTxt2">北京百视文化传...</span>
 							<i class="heart"></i>
@@ -76,10 +189,10 @@ window.onload = window.onresize = function (){
 						</div>
 					</li>
 					<li>
-						<div class="num">C01</div>
+						<div class="num">C04</div>
 						<div class="itemBox">
 							<p class="title">我的朋友猪迪克</p>
-							<div class="itemImg"><img src="" alt=""></div>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
 							<p class="itemTxt">选送单位：</p>
 							<span class="itemTxt2">北京百视文化传...</span>
 							<i class="heart"></i>
@@ -88,10 +201,168 @@ window.onload = window.onresize = function (){
 						</div>
 					</li>
 					<li>
+						<div class="num">C05</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C06</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C07</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C08</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C09</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="clearfix">
+					<li>
 						<div class="num">C01</div>
 						<div class="itemBox">
 							<p class="title">我的朋友猪迪克</p>
-							<div class="itemImg"><img src="" alt=""></div>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C02</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C03</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em class="count">99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C04</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C05</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C06</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C07</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item01.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C08</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item02.jpg" alt=""></div>
+							<p class="itemTxt">选送单位：</p>
+							<span class="itemTxt2">北京百视文化传...</span>
+							<i class="heart"></i>
+							<em>99999</em>
+							<a href="javascript:" class="vote_btn">投票</a>
+						</div>
+					</li>
+					<li>
+						<div class="num">C09</div>
+						<div class="itemBox">
+							<p class="title">我的朋友猪迪克</p>
+							<div class="itemImg"><img src="images/item03.jpg" alt=""></div>
 							<p class="itemTxt">选送单位：</p>
 							<span class="itemTxt2">北京百视文化传...</span>
 							<i class="heart"></i>
