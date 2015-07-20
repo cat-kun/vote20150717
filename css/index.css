@@ -8,7 +8,9 @@
 .mainCont .text{margin-bottom: 20px;}
 .link{font-size: 0;margin: 30px 0;}
 .link a{color: #fff;float: left;width: 33%;font-size: 18px;text-align: center;}
-.link i{display: inline-block;background: url(../images/icon.png) no-repeat;background-size: 260px 135px;}
-.link .activity_desc{width: 49px;height: 41px;}
-.link .vote{width: 32px;height: 42px;background-position: -58px 0;}
-.link .ranking_list{width: 44px;height: 41px;background-position: -97px 0;}
+.link i,.link em{display: inline-block;background: url(../images/icon.png) no-repeat;background-size: 260px 135px;}
+.link .activity_desc,.link .activity_desc em{width: 49px;height: 41px;}
+.link .vote,.link .vote em{width: 32px;height: 42px;background-position: -58px 0;}
+.link .ranking_list,.link .ranking_list em{width: 44px;height: 41px;background-position: -97px 0;}
+.link em{-webkit-filter: blur(6px);display: none;}
+.link i:active em{display: block;}

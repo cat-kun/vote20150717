@@ -17,11 +17,14 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/index.css">
 <script>
-window.onload = window.onresize = function (){
-	var _html = document.getElementsByTagName('html')[0];
-	var view_width = _html.getBoundingClientRect().width;
+var _html,view_width;
+fontSize();
+window.onresize = fontSize;
+function fontSize (){
+	_html = document.getElementsByTagName('html')[0];
+	view_width = _html.getBoundingClientRect().width;
 	view_width > 640 ? _html.style.fontSize = 640 / 16 + 'px' : _html.style.fontSize = view_width / 16 + 'px';
-};
+}
 </script>
 </head>
 <body>
@@ -45,9 +48,9 @@ window.onload = window.onresize = function (){
 			</div>
 		</div>
 		<div class="link clearfix">
-			<a href="activity_description.html"><i class="activity_desc"></i><br>活动说明</a>
-			<a href="votes.html"><i class="vote"></i><br>我要投票</a>
-			<a href="ranking_list.html"><i class="ranking_list"></i><br>排行榜</a>
+			<a href="activity_description.html"><i class="activity_desc"><em></em></i><br>活动说明</a>
+			<a href="votes.html"><i class="vote"><em></em></i><br>我要投票</a>
+			<a href="ranking_list.html"><i class="ranking_list"><em></em></i><br>排行榜</a>
 		</div>
 	</section>
 	<footer id="footer">
