@@ -12,6 +12,6 @@
 .mainList .nav a:last-of-type{border: none;}
 /*.mainList{border: 1px solid #aeaeae;overflow: hidden;}*/
 .mainCont ul{border-top: 1px solid #aeaeae;overflow: hidden;padding: 4px;background-color: #fff;border-radius: 5px 0 5px 5px/ 5px 0 5px 5px;box-sizing: border-box;}
-.mainCont li{width: 30%;float: left;border: 2px solid #ff3108;background-color: #ffdf4b;}
+.mainCont li{width: 30%;float: left;border: 2px solid #ff3108;background-color: #ffdf4b;margin-right: 5px;}
 /*.mainList .nav,.mainCont{background-color: #fff;}*/
 .mainCont .num{width: 43px;height: 20px;}
